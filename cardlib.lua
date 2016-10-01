@@ -15581,6 +15581,25 @@ local module = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "The pen is mightier than the sword.",
 	},
+	
+	["Haggie125"] = {
+		["Id"] = 513644638,
+		["Name"] = "Haggie125",
+		["Health"] = 500,
+		["Power"] = 475,
+		["Rarity"] = "Rare",
+		["AttackEffect"] = "Dash",
+		["Color"] = "Neutral", 
+		["Cost"] = {["Neutral"] = 4, ["Yellow"] = 1,},
+		["Effect"] = {
+			Name = "AAAAAAAAAAAAAAAAAA",
+			Description = "Increase the health of one fighter by 100.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"Heal",100,"Single"}},
+			Target = "Ally",
+		},
+		["Bio"] = "give me money",
+	},
 
 	["iiMasant"] = {
 		["Id"] = 511797827,
