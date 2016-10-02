@@ -15600,6 +15600,25 @@ local module = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 		},
 		["Bio"] = "give me money",
 	},
+	
+	["Noob's Play Box"] = {
+		["Id"] = 514608202,
+		["Name"] = "Noob's Play Box",
+		["Health"] = 300,
+		["Power"] = 300,
+		["Rarity"] = "Common",
+		["AttackEffect"] = "Dash",
+		["Color"] = "Yellow", 
+		["Cost"] = {["Yellow"] = 3,},
+		["Effect"] = {
+			Name = "AAAAAAAAAAAAAAAAAA",
+			Description = "When this card is targeted, all ally fighters lose 100 power.",
+			["Type"] = "OnTarget",
+			["Power"] = {{"Weaken",100,"Ally"}},
+			Target = "Ally",
+		},
+		["Bio"] = "yayyyy!",
+	},
 
 	["iiMasant"] = {
 		["Id"] = 511797827,
