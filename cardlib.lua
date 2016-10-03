@@ -5917,7 +5917,7 @@ local module = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			["Power"] = {{"Red",1,"Ally"},{"Lock",1}},
 			Target = "Single",
 		},
-		["Bio"] = "He's not an imaginary friend, but his codename is feared by operatives of a whole league of sectors.",
+		["Bio"] = "He absolutely loves his blue blindfold.",
 	},
 	
 	["Burning Phoenix"] = {
@@ -15618,6 +15618,25 @@ local module = { -- CARD_ID, NAME, POWER, HEALTH, RARITY,BIO
 			Target = "Ally",
 		},
 		["Bio"] = "yayyyy!",
+	},
+	
+	["litozinnamon"] = {
+		["Id"] = 515460976,
+		["Name"] = "litozinnamon",
+		["Health"] = 1050,
+		["Power"] = 400,
+		["Rarity"] = "Epic",
+		["AttackEffect"] = "Dash",
+		["Color"] = "Blue", 
+		["Cost"] = {["Blue"] = 4, ["Neutral"] = 2,},
+		["Effect"] = {
+			Name = "AAAAAAAAAAAAAAAAAA",
+			Description = "Deal 200 damage to one fighter, then lock it for 1 turn.",
+			["Type"] = "OnSummon",
+			["Power"] = {{"Lock",1},{"Damage",200}},
+			Target = "Ally",
+		},
+		["Bio"] = "Ice cold.",
 	},
 
 	["iiMasant"] = {
