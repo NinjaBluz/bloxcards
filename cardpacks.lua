@@ -865,6 +865,9 @@ return {
 			"mrawesomecarter",
 			"__________",
 			"JavierCollin88Poppin",
+			"Haggie125"
+			"Noob's Play Box"
+			"litozinnamon"
 			"YotamTiti",
 			"Mohawk2275",
 			"Divine_Pengu",
@@ -998,7 +1001,6 @@ return {
 			"Rukiryo",
 			"Moded",
 			"Godlysinha",
-			"Crystal Cultist",
 			"MisterObvious",
 			"Bloxikin Horde",
 		},
