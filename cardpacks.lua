@@ -496,6 +496,7 @@ return {
 		CardPackId = 465492637,
 		Description = "Blue is the colour of logic, order, and structure. Thought packs contain cards that cost blue!",
 		Cards = {
+			"litozinnamon"
 			"Yoshius",
 			"Nopants99",
 			"CIA Man",
@@ -671,6 +672,8 @@ return {
 		CardPackId = 465492745,
 		Description = "Yellow is the colour of community, satisfaction, and society. Revel packs contain cards that cost yellow!",
 		Cards = {
+			"Noob's Play Box"
+			"Haggie125"
 			"PencilWizard",
 			"YotamTiti",
 			"Divine_Pengu",
@@ -933,9 +936,6 @@ return {
 			"Gravity Inspector",
 			"LordFlanz",
 			"TheEnderCorp",
-			"HuntarioRBLX",
-			"Cyandude585",
-			"Febrezer",
 			"Paraselene Sage",
 			"President Duck",
 			"Wingman8",
